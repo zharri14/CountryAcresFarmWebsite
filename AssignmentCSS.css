@@ -1,0 +1,194 @@
+/* https://www.w3schools.com/css/css_navbar_horizontal.asp */
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #545454;
+        color: black;
+    }
+
+    nav li{
+        float: left;
+    }
+
+    nav li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+
+    .active{
+        background-color: #242424;
+        color: white;
+    }
+
+    nav li a:hover {
+        background-color: #3D3D3D;
+        color: white;
+    }
+
+/* End of w3 schools nav bar */
+
+/* Changes the height of the image in the navigation bar */
+img.navLogo{
+    height: 35px;
+    padding: 3px;
+}
+
+/* Places the nav bar tabs to the right side of the screen */
+.navRight{
+    float: right;
+}
+
+/* Gives the footer a padding of 5px */
+footer{
+    padding: 5px;
+}
+
+/* Updates the table in the footer */
+footer table{
+    width: 100%;
+    background-color: #545454;
+    color: white;
+    font-weight: bold;
+}
+
+/* Updates the image in the footer */
+footer table img{
+    width: 30%;
+}
+
+/* Class used on the home page to make the images 75% of the screen */
+.imgMid{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+/* Class used on the About Us page to make the images 500px */
+.imgMidSmall{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+/* Class that makes images 300px */
+.imgMidSmaller{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+}
+
+/* Creates the green background of the entire website */
+html {
+    width: 100%;
+    height: 100%;
+    background-color: #012704;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Changes each of the heading to white and centered */
+h1, h2, h3{
+    color: white;
+    text-align: center;
+}
+
+/* Changes the p tags throughout the site */
+p{
+    font-size: larger;
+    text-align: center;
+}
+
+/* CSS that creates the gray background for the div tags */
+.website{
+    width: 80%;
+    margin: auto;
+    align-content: center;
+    padding: 20px;
+    background-color: #545454;
+}
+
+/* Updates all the tables on the website to center content */
+table{
+    align-content: center;
+    color: white;
+    border: 2px solid white;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #3D3D3D;
+}
+
+/* Updates the product list table */
+#productList th, td {
+    padding: 15px;
+}
+
+/* CSS to make every other row a darker color for the product list */
+#productList tbody tr:nth-child(even) td, th
+{
+    background-color: #242424;
+}
+
+/* CSS for the submit button on the form */
+input[type=submit]{
+    background-color: #242424;
+    color: white;
+    font-size: larger;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+}
+
+/* CSS for the video on the home page */
+video{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+
+#slider{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.accordion{
+    display: none;
+    overflow: hidden;
+}
+
+.white{
+    color: white;
+}
+
+#sliderDiv{
+    width: 60%;
+    margin-left: 20%;
+    position: relative;
+}
+
+.zoom{
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 600px;
+
+}
+
+.imgMidSmall2{
+    display: block;
+    position: relative;
+    height: 350px;
+}

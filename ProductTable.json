@@ -1,0 +1,50 @@
+{"products":[
+	{
+		"name": "Hamburger",
+		"price": "$8.00"
+	},
+    {
+		"name": "Filet",
+		"price": "$26.50"
+	},
+    {
+		"name": "Ribeye",
+		"price": "$19.00"
+	},{
+		"name": "New York Strip",
+		"price": "$18.00"
+	},{
+		"name": "Sirloin",
+		"price": "$13.75"
+	},{
+		"name": "Flat Iron",
+		"price": "$15.00"
+	},{
+		"name": "Flank",
+		"price": "$14.00"
+	},{
+		"name": "Skirt",
+		"price": "$15.00"
+	},{
+		"name": "Cube Beef",
+		"price": "$9.00"
+	},{
+		"name": "Roasts",
+		"price": "$8.00"
+	},{
+		"name": "Stew Beef",
+		"price": "$8.00"
+	},{
+		"name": "Sirloin Tips",
+		"price": "$9.00"
+	},{
+		"name": "Short Ribs",
+		"price": "$7.00"
+	},{
+		"name": "Bones",
+		"price": "$3.00"
+	},{
+		"name": "Liver/Heart",
+		"price": "$3.00"
+	}
+]}

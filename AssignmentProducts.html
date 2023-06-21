@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Products</title>
+    <link rel="stylesheet" href="AssignmentCSS.css" />
+
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="AssignmentJSProducts.js"></script>
+    <script src="AssignmentJSFooter.js"></script>
+
+ </head>
+
+ <body class="white">
+
+ <!-- Creates the Navigation Bar to go to the different pages -->
+    <nav>
+        <ul>
+            <li><img src="Small%20Logo.png" alt="logo" class="navLogo"></li>
+
+            <li class="navRight"><a href="AssignmentFAQ.html">FAQ</a></li>
+            <li class="navRight"><a href="AssignmentProducts.html" class="active">Products</a></li>
+            <li class="navRight"><a href="AssignmentAboutUs.html">About Us</a></li>
+            <li class="navRight"><a href="index.html">Home</a></li>
+        </ul>
+    </nav>
+
+    <h1>Products</h1>
+
+<!-- Creates the gray background surrounding the information throughout the website -->
+    <div class="website">
+        <!-- Table that houses the product's and their respective prices-->
+        <table id="productList"></table>
+
+        <p><em>(Prices subject to change based on market price)</em></p>
+        <p><em>Market Price January 2022</em></p>
+        <br><br>
+
+        <h2>To Purchase Products, Please Fill Out the Form Below</h2>
+        <h2>So We Can Contact You</h2><br>
+
+        <!-- Form that allows users to submit their contact information for purchasing beef -->
+        <form>
+            <table>
+                <tr>
+                    <td><label for="name">Name:</label></td>
+                    <td><input id="name" type="text" aria-required="true"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="phoneNum">Phone Number:</label></td>
+                    <td><input type="tel" id="phoneNum" name="phoneNum" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="email">Email:</label></td>
+                    <td><input type="email" id="email" name="email"></td>
+                </tr>
+            </table>
+            <br>
+
+            <input type="submit" name="submit" formaction="#">
+        </form>
+    </div>
+
+    <br><br>
+
+<!-- Creates the footer for each of the websites -->
+ <footer>
+     <table id="footer">
+
+     </table>
+ </footer>
+
+</body>
+</html>
